@@ -1,0 +1,50 @@
+                .Net Core
+
+-- This is a complete re-written version of .Net Framework 
+	.Net Framework was available only for windows platform 
+	.Net framework did not follow open source design pattern
+	.Was not purely an open source
+	.Needed Visual Studio (this is a licenced version, availble for windows and mac)
+		Visual Studio needed windows OS (pay the licence)
+		Can host only on IIS, which was available on Windows Server(again a cost)
+		Not compatible with Clouds other than microsoft
+	.Open source free to develop and host applications this days
+		Angular, Node, React, MERN stack 
+		--Thus microsoft had to rewrite the framework
+
+			which is 
+			1. Open source
+			2. Availabel for All platforms (Windows, Mac, Linux, Android etc...)
+			3. Free to develop and host
+			4. We have Visual Studio Code, excellent tool for all platforms
+			5. Follows all the open source Design patterns 
+--------------------------------------------------------------------------------------------------------------
+Common commands for .net core - .Net Core CLI (Command line interface)
+1. Open Command prompt (win + r) --> cmd  -- check if .net core is installed and which version
+		dotnet --version
+2. Create a new application (web, desktop, class library etc..)
+	dotnet new mvc --name shoppingAPP
+	go in side the folder cd shoppingAPP
+	dotnet build
+	dotnet run
+
+.net core CLI 
+https://learn.microsoft.com/en-us/dotnet/core/tools/
+
+
+GIT Repo - all Notes and Demo
+https://github.com/nikhilshah85/26042023---ASP.Net-Core-MVC.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
