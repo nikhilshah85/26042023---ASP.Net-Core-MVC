@@ -1,0 +1,13 @@
+For Me
+git clone https://github.com/nikhilshah85/26042023---ASP.Net-Core-MVC.git
+git add . (add all the files and folders for upload)
+git commit -m "Day 1" (git a meaning ful message)
+git push
+
+
+For You - do not do this on cloud lab - do this on personal machine - company laptop - anytime
+git clone https://github.com/nikhilshah85/26042023---ASP.Net-Core-MVC.git
+git pull
+
+Complete the app process - revision
+https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-7-0
