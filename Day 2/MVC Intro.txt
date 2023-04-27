@@ -1,0 +1,19 @@
+				MVC
+
+
+		Model (.cs file) - Data part of application
+				 - Database interaction (ADO.Net / Entity Framework / Data Structure)
+				 - CRUD Operations 
+				 - Sort, Filter, Calculate, Validate data
+				 - Execute Stored Procedure, transactions etc...
+
+	     View(.cshtml file) - UI Part of application
+				- HTML, CSS and JS
+				- Angular / React components
+				- libraries like bootstrap, JQueryUI
+				- Make WebAPI calls (client side calls)
+				- RAZOR syntax (short hand html,css and JS)	
+	   Controller(.cs file) - Listen to request
+				  cordinate between VIEW and Model for data
+				  Prepares the response
+				   takes care of Caching, Session management, Security, 			    		       		   Authentication,authorization, encrypt / decrypt

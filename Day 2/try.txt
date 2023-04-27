@@ -1,0 +1,11 @@
+In the same application
+
+add a new controller - Admin
+	add below actions
+
+	ViewOrders
+	AddProducts
+	BlockUsers
+	IssueRefund
+
+update the layout page

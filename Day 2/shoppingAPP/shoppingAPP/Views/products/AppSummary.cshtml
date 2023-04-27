@@ -1,0 +1,28 @@
+﻿
+
+
+<div>
+    <h2> Developer : @ViewBag.totalProducts </h2>
+    <h2> Project Cost : @ViewBag.projectCost </h2>
+    <h2> Total Products : @ViewBag.totalProducts</h2>
+    
+
+
+    @if(ViewBag.isAppLive)
+    {
+        <h2 style="color:green"> Is App Live : @ViewBag.isAppLive</h2>
+    }
+    else
+    {
+        <h2 style="color:orangered"> Is App Live : @ViewBag.isAppLive</h2>
+    }
+
+
+    <ul>
+    @foreach (var item in ViewBag.team)
+    {
+        <li> @item </li>
+    }
+    </ul>
+
+</div>
