@@ -1,0 +1,90 @@
+﻿
+
+<h1 style="text-align:center"> Product List </h1>
+
+@*<ul>
+    @foreach (var item in ViewBag.pCategories)
+    {
+        <li> @item </li>
+    }
+</ul>*@
+
+
+@*<select>
+    @foreach (var item in ViewBag.pCategories)
+    {
+        <option> @item </option>
+    }
+</select>*@
+
+@foreach (var item in ViewBag.pCategories)
+{
+   <input type="checkbox" value="@item">@item
+}
+
+
+
+@* <table class="table table-bordered" style="text-align:center">
+    @foreach (var item in ViewBag.pList)
+    {
+        <tr>
+            <td> @item.pId </td>
+            <td> @item.pName </td>
+            <td> @item.pCategory </td>
+            <td> @item.pPrice </td>
+            <td> @item.pIsInStock </td>
+            <td><button class="btn btn-primary"> Add </button>  </td>
+            <td><button class="btn btn-danger">Delete</button>  </td>
+            <td><button class="btn btn-warning">Edit</button>  </td>
+
+        </tr>
+    }
+ </table>*@
+
+@foreach (var item in ViewBag.pList)
+{
+    @if (item.pIsInStock)
+    {
+        <div style="background-color:green;color:white">
+            <h3> Product Name : @item.pName - #(@item.pId)  </h3>
+            <h3> Product Category : @item.pCategory </h3>
+            <h3> Product Price : @item.pPrice</h3>
+            <h3> Product In Stock : @item.pIsInStock </h3>
+        </div>
+    }
+    else
+    {
+        <div style="background-color:red;color:white">
+            <h3> Product Name : @item.pName - #(@item.pId)  </h3>
+            <h3> Product Category : @item.pCategory </h3>
+            <h3> Product Price : @item.pPrice</h3>
+            <h3> Product In Stock : @item.pIsInStock </h3>
+        </div>
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
