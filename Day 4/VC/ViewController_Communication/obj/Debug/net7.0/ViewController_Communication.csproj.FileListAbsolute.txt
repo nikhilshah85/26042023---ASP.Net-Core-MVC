@@ -1,0 +1,47 @@
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.ViewController_Communication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.build.ViewController_Communication.props
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ViewController_Communication.props
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ViewController_Communication.props
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.dll
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\refint\ViewController_Communication.dll
+C:\Users\Administrator\Desktop\26042023 0 - ASP.Net Core MVC\26042023---ASP.Net-Core-MVC\Day 4\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.pdb
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\appsettings.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\ViewController_Communication.staticwebassets.runtime.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\ViewController_Communication.exe
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\ViewController_Communication.deps.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\ViewController_Communication.runtimeconfig.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\ViewController_Communication.dll
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\bin\Debug\net7.0\ViewController_Communication.pdb
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.ViewController_Communication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.build.ViewController_Communication.props
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ViewController_Communication.props
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ViewController_Communication.props
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\scopedcss\bundle\ViewController_Communication.styles.css
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\scopedcss\projectbundle\ViewController_Communication.bundle.scp.css
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.dll
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\refint\ViewController_Communication.dll
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.pdb
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ViewController_Communication.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\ViewController_Communication\ViewController_Communication\obj\Debug\net7.0\ref\ViewController_Communication.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ViewController_Communication/1.0.0": {
+        "runtime": {
+          "ViewController_Communication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ViewController_Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

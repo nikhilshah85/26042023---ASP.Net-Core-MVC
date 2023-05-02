@@ -1,0 +1,17 @@
+﻿
+
+
+<form method="post">
+    <input type="text" placeholder="Please enter your name" class="form-control" name="guestName" />
+    <button type="submit" class="btn btn-primary">Greeting</button>
+</form>
+
+@if (ViewBag.hasError == true)
+{
+
+    <h2 style="color:red">@ViewBag.greetMessage</h2>
+}
+else
+{
+    <h2 style="color:green">@ViewBag.greetMessage</h2>
+}
