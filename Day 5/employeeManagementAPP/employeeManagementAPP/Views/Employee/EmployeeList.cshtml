@@ -1,0 +1,40 @@
+﻿<h1 style="text-align:center"> Employee List</h1>
+
+
+
+
+<table class="table table-stripped">
+     
+    <thead>
+        <th> Employee No </th>
+        <th> Name </th>
+        <th> Designation </th>
+        <th> Salary </th>
+    <th> Is Permemant </th>
+    </thead>
+
+    @foreach (var item in ViewBag.eList)
+    {
+        @if (item.empIsPermenant == false)
+        {
+            <tr style="background-color:red">
+                 <td> @item.empNo </td>
+                <td> @item.empName </td>
+                <td> @item.empDesignation </td>
+                <td> @item.empSalary </td>
+                <td> @item.empIsPermenant </td>
+            </tr>
+        }
+        else
+        {
+             <tr style="background-color:green">
+                <td> @item.empNo </td>
+                <td> @item.empName </td>
+                <td> @item.empDesignation </td>
+                <td> @item.empSalary </td>
+                <td> @item.empIsPermenant </td>
+            </tr>
+            }
+           
+    }
+</table>

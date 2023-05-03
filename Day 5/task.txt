@@ -1,0 +1,48 @@
+1. Create a new application MVC - in  Day 5 folder
+	employeeManagementAPP
+2. Add a new model, employeeModel, with the below properties
+		empNo, empName, empDesignation, empSalary, empIsPermenant
+3. Add static list of employeeModel and add 5 emloyees
+
+4.add methods to return all the employee
+
+5. add a controller, add an action method to get all the data from Model
+
+6. Add a view, display the data in view in form of a table
+------------------------------------------------------------------
+
+Part 2 :
+
+below is the method to search employee by id (empNo) in Model file
+  public EmployeeModel GetEmployeeById(int eid)
+        {
+            var emp = eList.Find(e => e.empNo == eid);
+
+            if (emp != null)
+            {
+                return emp;
+            }
+            throw new Exception("Employee  not  found in system");
+       }
+
+
+7. add functionality in controller to call the above method and return the output
+
+8. add a view accordingy and display employee in DIV with all properties in h2 or an exception message in red 	color
+
+------------------Hint
+a. you will need 2 methods in controller, 1 to get the page, 2nd to make a post call with a parameter for Id
+
+b. you will need a form in view, with a textbox haveing same name as parameter in above method
+
+
+
+
+
+
+
+
+
+
+
+
