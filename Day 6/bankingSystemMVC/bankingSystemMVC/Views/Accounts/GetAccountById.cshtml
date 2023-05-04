@@ -1,0 +1,24 @@
+﻿
+
+<form method="post">
+    <input type="number" placeholder="Enter Account Number" name="id" class="form-control"/>
+    <button class="btn btn-primary"> Find Account </button>
+</form>
+
+
+@if (ViewBag.acc != null)
+    {
+
+
+        <div style="background-color:lime">
+            <h4> Account Number : @ViewBag.acc.accNo</h4>
+            <h4> Account Name : @ViewBag.acc.accName</h4>
+            <h4> Account Balance : @ViewBag.acc.accType</h4>
+            <h4> Account Type : @ViewBag.acc.accNo</h4>
+            <h4> Account Is Active : @ViewBag.acc.accNo</h4>
+        </div>
+}
+else
+{
+    <h1 style="color:red"> @ViewBag.errMessage </h1>
+}

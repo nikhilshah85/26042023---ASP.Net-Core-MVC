@@ -1,0 +1,100 @@
+For Today : last day for in memory collection 
+
+Perform CRUD operations with in Memory collection 
+
+1. Create a new appliacation - bankingSystemMVC
+
+2. Add a model Accounts
+
+3. Add properties - accNo, accName, accType, accBalance, accIsActive
+
+4. Add a new collection property - with 5 records
+	List<Accounts> accList = new List<Accounts>()
+	{
+		....	
+	}
+5. create methods as below
+	public List<Accounts> GetAllAccounts()
+	{
+		return accList;
+	}
+
+   	public Accounts GetAccountById(int id)
+	{
+		var acc = accList.Find(a => a.accNo == id);
+
+		if(acc.accNo.count == 1)
+		{
+			return acc;
+		}
+		throw new exception("Account Not found");	
+	}
+
+	public string AddnewAccount(Accounts newAcc)
+	{
+		accList.Add(newAcc);
+		return "Account added successfully";
+	}
+
+
+6. Add a controller : AccountsController
+
+7. import model folder on top : useing bankingSystemMVC.Models;
+
+8. in the class, add below Actions
+	
+	Accounts accObj = new Accounts();
+	public IActionResult DisplayAccountList()
+	{
+		return view(accObj.GetAllAccounts());
+	}
+	//create a view based on it and display the data in table
+
+
+	public IActionResult GetAccountById(int id)
+	{
+		try
+		{
+			var acc = accObj.GetAccountById(id);
+			ViewBag.acc = acc;
+			return acc;
+		}
+		catch(Exception es)
+		{
+			ViewBag.errMessage = es.Message;
+			return View();
+		}	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

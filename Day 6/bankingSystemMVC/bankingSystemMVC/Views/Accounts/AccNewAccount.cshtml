@@ -1,0 +1,23 @@
+﻿
+
+
+<h3 style="text-align:center">   Add New Account</h3>
+
+<form method="post">
+    <input type="number" placeholder="Enter Account Number" class="form-control" name="newacc.accNo" />
+    <input type="text" placeholder="Enter Account Name" class="form-control" name="newacc.accName" />
+    <input type="number" placeholder="Enter Account Balance" class="form-control" name="newacc.accBalance" />
+
+    <select class="form-control" name="newacc.accType">
+        <option> Savings </option>
+        <option> Current </option>
+        <option> PF </option>
+    </select>
+
+    <input type="text" class="form-control" name="newacc.accIsActive" />
+
+    <button class="btn btn-danger"> Add New Account </button>
+
+</form>
+
+<h1 style="color:green"> @ViewBag.addResult </h1>

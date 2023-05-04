@@ -1,0 +1,20 @@
+﻿
+
+
+<h6> @Html.ActionLink("Search Account","GetAccountById") </h6>
+
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.accList)
+    {
+     <tr>
+             <td> @item.accNo </td>
+            <td> @item.accName </td>
+            <td> @item.accBalance </td>
+            <td> @item.accType </td>
+            <td> @item.accIsActive </td>
+     </tr>   
+    }
+</table>
+
+
+<h6> @Html.ActionLink("ADD Account","AccNewAccount") </h6>
