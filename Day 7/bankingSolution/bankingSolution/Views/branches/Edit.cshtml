@@ -1,0 +1,39 @@
+﻿@model bankingSolution.Models.EF.BranchInfo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>BranchInfo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BrNo" />
+            <div class="form-group">
+                <label asp-for="BrName" class="control-label"></label>
+                <input asp-for="BrName" class="form-control" />
+                <span asp-validation-for="BrName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BrCity" class="control-label"></label>
+                <input asp-for="BrCity" class="form-control" />
+                <span asp-validation-for="BrCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

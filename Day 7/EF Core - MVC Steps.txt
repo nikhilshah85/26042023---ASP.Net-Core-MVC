@@ -1,0 +1,192 @@
+We will now shift Model data to a Database
+
+
+We will be useing SQL Server for the same (but it could be anything)
+
+to have database communication 
+
+u can use ADO.net / ODBC / OLEDB
+we will use more advanced and latest framework for the same (Entity Framework)
+-------------------------------------------------------------------------------------------------------------
+
+1. Create database - bankingDB
+
+2. create tables in the database 
+	
+	create database bankingDB
+
+	use bankingDB
+
+	create table AccountsInfo
+	(
+		accNo int primary key,
+		accName varchar(20),
+		accType varchar(20),
+		accBalance int,
+		accIsActive bit
+	)
+
+
+	insert into AccountsInfo values(101,'Nikhil','Savings',8000,1)
+	insert into AccountsInfo values(102,'Rahul','Current',18000,1)
+	insert into AccountsInfo values(103,'Sumit','Savings',28000,0)
+	insert into AccountsInfo values(104,'Karan','Savings',38000,1)
+	insert into AccountsInfo values(105,'Mohan','Current',48000,1)
+	insert into AccountsInfo values(106,'Rohan','Savings',86000,0)
+	insert into AccountsInfo values(107,'Sohan','Current',12000,1)
+
+3. Create a new MVC Application - bankingSolution
+
+4. Application has no knowledge about EF - thus we will need to install nuget packages for the same
+	below are nuget packages to be added - in sequence
+
+	solution explorer -> right click -> Manage nuget package -> Browse
+	Type EntityframeworkCore
+
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.SqlServer
+
+5. Download POCO classes from server (Plain C# Objects) - classes mapped to table
+	EF Core is based on Design pattern - ORM - object relational mapping
+
+		Map your application to Database
+		Map classes to tables and viws
+		Map properties to columns and datatype 
+		Map methods to functions and procedures
+
+
+	tools -> Nuget package manager - package manager console (this is powershell)
+
+Windows Authentication
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB; database=bankingDB; integrated security=true" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+Server Authentication
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB; database=bankingDB; userid= ; password=" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+6. Create a controller useing EF - it will create all the methods for CRUD operations, along with views
+	controller folder -> right click -> controller --> MVC Views useing EF
+
+
+7. It configures DI by default, (only half part) - half we have to - we will learn it first and then use 
+	thus we will remove DI 
+
+	instantiate new object of DBContext class - line 14
+
+	comment the constructor
+	
+	update the layout page
+
+8.Build and run the application 
+
+9. lets add 1 more table to the same database and also update the existing table
+
+
+create table branchInfo
+(
+	brNo int primary key,
+	brName varchar(20),
+	brCity varchar(20)
+)
+insert into branchInfo values(10,'Hi-tech','Hyderabad')
+insert into branchInfo values(20,'Navallur','Chennai')
+insert into branchInfo values(30,'Baner','Pune')
+insert into branchInfo values(40,'Whitefield','Bangalore')
+
+
+alter table accountsInfo add accLastName varchar(20)
+
+10. we need to run the Scaffold-dbContext command again to update the application for POCO classes
+
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB; database=bankingDB; integrated security=true" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer -Force
+
+
+11. we need to use -Force argument to override the file
+
+12. recreate the controller, remove DI,run and build the application 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
