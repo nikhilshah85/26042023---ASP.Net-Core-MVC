@@ -1,0 +1,84 @@
+1. We want to have a secured application 
+	we do not want users to view content (pages) if they are not logged-in
+
+	how to allow users to log-in 
+		a. create a new account
+		b. use any existing account (Facebook, google, twitter, linked etc, o365)
+			oAuth (open source authentication)
+			we will implement it here with MVC
+
+
+Today 
+This is a super new and imporant feature of .net core - super userful
+2. DataAnnotation - used for Dataformat, data validation for client side and server - centreally
+
+
+
+1. Create a new database - employeeManagement
+	we need 2 tables with sample data
+	
+		1. deptInfo
+			deptNo int primary key
+			deptName varchar(20) - unique key
+			deptCity
+
+		add 5 sample dept
+
+		2. empInfo
+			empNo int primary key
+			empName varchar(20) - check constraint - min 3 characters needed
+			empDesignation(20) - allow only - Developer, Manager, HR
+			empSalary int (only between 12000 and 50000)
+			empDept - foreign key with 1st table
+			empIsPermenant - bit (bool)
+
+		add 8 sample emp
+
+
+2. Create a new MVC application - employeeManagement_MVC
+
+3. Add all 4 nuget packages
+
+4. Generate POCO classes
+
+5. Generate controllers and views based on EF, build and test the application 
+
+6. As the data lables are not as per presentaion practices, we cannot use the same for presentation
+
+	also the constraints are there
+
+	Option 1: we write Validation code by ourself in front end, both Javascript and C#
+	option 2: use System.ComponentModel.DataAnnotations - in Model File
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
