@@ -1,0 +1,20 @@
+
+Today : ASP.net MVC APP with EF Core and oAuth 
+--Security for application
+--Content Security
+--Profileing for application
+--Self service for user and accounts
+--2FA - 2 factor authentication 
+--Use existing credentials  - identity
+
+----------
+We need a strong database for the same - along with tables to store this information 
+-- we will need to store info like
+		Password -- and we need to encrypt it
+		Mobile no, emails, security questions, fb account, gmail acc etc..
+
+		All of this will be taken care by - EF Core and oAuth framework 
+
+		
+		
+	

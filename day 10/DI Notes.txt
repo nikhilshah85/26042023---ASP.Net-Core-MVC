@@ -1,0 +1,115 @@
+What we know
+
+MVC - Design patten 
+Communication between them 
+In memory collection 
+EF Core
+oAuth 
+---------------
+
+DI - dependency injection 
+----------------------------------------------------------------------------------------------------
+		Lets set up a problem 
+
+	1. Create a new database - clientManagement
+		clientid, clientname, clientlocation, projectValue, clientIsActive
+
+	2. Add 5 records to the table
+	3. create a mvc application with EF core to display the data
+
+
+				DI
+
+	1. As a developer we create lots of objects in an application 
+		but do we ever write code to destroy the object, release the memory, references ?
+		do we use IDisposable ??? 
+
+		thus in a web app, since users and request keeps on increaseing, over a period of time
+		performance will decrease, thus restart the server
+
+		Why we do not write destructor ?
+
+		because we think GC will do it for us
+
+		Thus, framework will now take care of creation of object and destruction of object
+
+		
+	2. Share the object between multiple request, users and controllers
+
+	---------Framework will take care of
+			a. createing and destroying the object
+			b. shareing the object based on your configuration
+				there are 3 methods available for the same
+	
+a. AddTransient - percall - create new object for a request, process and destroy the object
+b. AddScoped    - persession - create new object for every session, destroy then user logs out / timeout
+c. AddSingleTon - AppliationLevel - create 1 object and share with all the users
+
+		2 steps to implement
+
+	private readonly ClientManagementContext _context; // do not instantiate the object
+                                                           // do not use new keyword
+
+
+        //object will be created by runtime and injected when this controller will be called
+        public clientController(ClientManagementContext context)
+        {
+            _context = context;
+        }
+
+
+	in program.cs use 1 of the method from above
+	How to decide which method to use ? (think of data, how dynamic is it)
+	AddTranscient - this is percall - when data is very dynamic and changes a lot
+				eg. stock market, cricket score, ticket reservation, etc..
+		Dynamic Data
+
+	AddScoped - user related data - banking, statement, where data should not be shared with other users
+					employee data (they can filter, sort etc..)
+
+	AddSingleTon - same data to be shared with everyone
+				flight ticket SCHEDULE, temperate (this is same for everyone, not scencetive)
+				Static Data	
+		
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

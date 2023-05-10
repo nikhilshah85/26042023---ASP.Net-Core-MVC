@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\clientManagementMVC_DI.props" />
+</Project>
