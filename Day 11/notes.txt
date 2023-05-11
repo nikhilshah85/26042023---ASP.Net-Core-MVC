@@ -1,0 +1,34 @@
+Partial Page
+
+	1. Create a new MVC Application 
+	2. create a new partial page - _calculator.cshtml
+			take 2 text boxes
+				a. principal
+				b. roi
+				c. duration
+
+	3. we will write JQuery to display the intrest (simple intrest)
+
+	4. Take h3 - we will display the intrest
+
+	5. Create a database shoppingMVCDB
+		create 3 tables
+			MensProduct
+			WomensProduct
+			KidsProduct
+
+			all of them will have below columns
+				pId, pName, pCategory, pPrice, pIsInStock
+
+			insert 5 values inside the table
+
+		we wish to display the data on 3 different views in MVC 
+		we will create a partialpage template, and use it everywere, with dynamically passing the data
+		we will not write <html> tables for 3 times, rather it it will be 1 time, and we will manage
+			view centrally from partial page
+	6. configure EF in the same project, and download POCO classes
+	7. create a new controller, shoppingcontroller, add 3 actions pages, kids, mens, womens
+		wait
+
+
+

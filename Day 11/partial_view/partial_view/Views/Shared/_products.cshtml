@@ -1,0 +1,45 @@
+﻿
+
+@*
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.products)
+    {
+        <tr>
+            <td> @item.PId</td>
+            <td> @item.PName</td>
+            <td> @item.PCategory</td>
+            <td> @item.PPrice</td>
+            <td> @item.PIsInStock</td>
+            <td> <button class="btn btn-primary"> Add</button> </td>
+        </tr>
+    }
+
+</table>*@
+ @foreach (var item in ViewBag.products)
+ {
+    @if (item.PIsInStock == true)
+    {
+        <div style="background-color:lawngreen"> 
+            <h3> Product id : @item.PId</h3>
+            <h3> Product Name :  @item.PName</h3>
+            <h3> Product Category : @item.PCategory </h3>
+            <h3> Product Price : @item.PPrice </h3>
+            <h3> Product Is Available : @item.PIsInStock </h3>
+           
+
+        </div>
+    }
+    else
+    {
+        <div style="background-color:red;color:white">
+            <h3> Product id : @item.PId </h3>
+            <h3> Product Name :  @item.PName</h3>
+            <h3> Product Category : @item.PCategory </h3>
+            <h3> Product Price : @item.PPrice </h3>
+            <h3> Product Is Available : @item.PIsInStock </h3>
+
+
+        </div>
+    }
+
+}

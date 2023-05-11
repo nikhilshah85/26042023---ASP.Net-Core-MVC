@@ -1,0 +1,24 @@
+﻿
+<h1>Calculate Simple Intrest </h1>
+
+
+<input type="number" placeholder="Enter Principal Amount" class="form-control" id="txtPrincipal" />
+<input type="number" placeholder="Enter Rate of Intrest" class="form-control" id="txtROI" />
+<input type="number" placeholder="Enter Duratrion in years" class="form-control" id="txtYears" />
+
+<button class="btn btn-primary" onclick="calculateIntrest()">Calulcate</button>
+<h1 id="displayIntrest"></h1>
+
+
+<script>
+    function calculateIntrest()
+    {
+        var principal = $("#txtPrincipal").val();
+        var roi = $("#txtROI").val();
+        var years = $("#txtYears").val();
+
+        var intrest = ((principal * roi) / 100) * years;
+        $("#displayIntrest").text("Intrest payable : " + intrest);
+        alert(intrest);
+    }
+</script>
