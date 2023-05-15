@@ -1,0 +1,35 @@
+﻿
+
+<script>
+
+    function getPostData()
+    {
+        var url = "https://jsonplaceholder.typicode.com/posts";
+
+
+        fetch(url)
+        .then(responseType => responseType.json()) //mention the expected data format
+        .then(data =>{
+            //alert('We got the data');
+            //console.log(data);
+                for (var i = 0; i < data.length; i++) {
+                     $("table").append("<tr>" +
+                        "<td>" + data[i].id + "</td>" +
+                        "<td>" + data[i].userId + "</td>" +
+                        "<td>" + data[i].title + "</td>" +
+                        "<td>" + data[i].body + "</td>" +                
+                "</tr>")
+            }
+        })
+        .catch( err=>
+        {
+            alert('We got error');
+        })
+
+    }
+
+
+</script>
+
+<button class="btn btn-primary" onclick="getPostData()" >Show Post</button>
+<table class="table table-bordered"></table>

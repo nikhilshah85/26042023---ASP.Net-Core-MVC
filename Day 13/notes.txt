@@ -1,0 +1,19 @@
+Try Task :
+
+in the same application, make an webapi call to 
+
+https://jsonplaceholder.typicode.com/albums
+
+display data in table
+---------------------------------------------------------------------
+
+Make a call to users
+https://jsonplaceholder.typicode.com/users and display 
+below data
+
+Name Email City Lat Lon CompanyName companycatchpase
+
+Hint
+data[i].address.suite (same format for city)
+data[i].address.geo.lat
+data[i].address.geo.lon

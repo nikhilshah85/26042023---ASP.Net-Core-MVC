@@ -1,0 +1,31 @@
+﻿
+<script>
+    function getCommentsData()
+    {
+            var url = "https://jsonplaceholder.typicode.com/comments";
+            fetch(url)
+            .then(format => format.json())
+            .then(commentsdata =>{
+                for(var i=0;i<commentsdata.length;i++)
+                {
+                    $("table").append("<tr>" +
+                        "<td>" + commentsdata[i].id + "</td>" +
+                        "<td>" + commentsdata[i].postid + "</td>" +
+                        "<td>" + commentsdata[i].name + "</td>" +
+                        "<td>" + commentsdata[i].email + "</td>" +
+                        "<td>" + commentsdata[i].body + "</td>" +                    
+                        "</tr>"
+                    )
+                }
+            })
+            .catch( err =>
+            {
+                alert('Got Error');
+                console.log(err);
+            })
+    }
+</script>
+<button class="btn btn-danger" onclick="getCommentsData()">
+    Show Comments
+    </button>
+<table class="table table-bordered"></table>
