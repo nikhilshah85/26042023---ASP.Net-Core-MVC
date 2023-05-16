@@ -1,0 +1,17 @@
+Make a webapi call to display the data
+
+Have you ever made webapi call in any technology ?
+
+There are 2 ways to make a call
+
+a. client side calling
+b. server side calling
+
+	client side calling - fetch api - this is a standard api built into browser
+		this is the fastest way to get the data
+		not secured, should not be used for scencetive data
+		user can right click and see the data
+
+	server side calling - HttpClient - this is based on standard provided by W3c and ECMA
+		
+		

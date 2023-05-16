@@ -1,0 +1,16 @@
+		As a MVC Developer
+
+1. What is MVC and how to develop WebAPP's here - Model, view and controller
+2. Communication between all the 3 of MVC
+3. Working with collections 
+4. EF Core 
+5. Content security - Identity framework (Facebook, google etc)
+6. DI 
+7. Make a API calls
+	client side 
+	server side
+8. Add a webapi to application 
+9. HTML, CSS, Javascript, JQuery, Razor systax
+10. Partial pages 
+
+all of this plus your knowlege is more than enough to get a project on MVC

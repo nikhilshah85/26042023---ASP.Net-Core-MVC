@@ -1,0 +1,22 @@
+﻿
+
+
+
+<form method="post" action="GetPostData">
+
+    <button type="submit" class="btn btn-primary">Show Post</button>
+<table>
+    @foreach (var item in ViewBag.post)
+    {
+        <tr>
+            <td> @item.id </td>
+            <td> @item.userId </td>
+            <td> @item.title </td>
+            <td> @item.body </td>
+            
+        </tr>
+    }
+
+
+</table>
+</form>
